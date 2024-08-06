@@ -1,4 +1,3 @@
-// filesystem-item.tsx
 "use client";
 
 import { NodeTree } from "@/utils/nodeTree";
