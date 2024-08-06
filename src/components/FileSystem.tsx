@@ -67,7 +67,7 @@ export function FilesystemItem({ node }: { node: NodeTree }) {
       {isOpen && (
         <ul className="pl-6">
           {node.nodes?.length === 0 ? (
-            <span className="pl-7 text-red-400">Empty</span>
+            <span className="pl-7 text-red-400 cursor-not-allowed">Empty</span>
           ) : (
             node.nodes?.map((node) => (
               <FilesystemItem node={node} key={node.name} />
