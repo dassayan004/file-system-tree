@@ -18,7 +18,6 @@ const fileIconMap: { [key: string]: JSX.Element } = {
   ".jpeg": <FaFileImage className="ml-[22px] size-6 text-gray-400" />,
   ".png": <FaFileImage className="ml-[22px] size-6 text-gray-400" />,
   ".mp4": <FaFileVideo className="ml-[22px] size-6 text-gray-400" />,
-  // Add more mappings as needed
 };
 
 const defaultIcon = <FaFile className="ml-[22px] size-6 text-gray-400" />;
