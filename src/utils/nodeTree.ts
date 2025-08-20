@@ -178,7 +178,7 @@ export const nodes: NodeTree[] = [
           },
         ],
       },
-      { name: "passwords.tsx" },
+      { name: "passwords.txt" },
       { name: "input.sh" },
     ],
   },
