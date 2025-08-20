@@ -51,14 +51,6 @@ export const nodes: NodeTree[] = [
           {
             name: "gql-try",
             nodes: [
-              { name: "bun.lock" },
-              { name: "codegen.ts" },
-              { name: "components.json" },
-              { name: "graphql.schema.json" },
-              { name: "next.config.ts" },
-              { name: "next-env.d.ts" },
-              { name: "package.json" },
-              { name: "postcss.config.mjs" },
               {
                 name: "public",
                 nodes: [
@@ -69,7 +61,6 @@ export const nodes: NodeTree[] = [
                   { name: "window.svg" },
                 ],
               },
-              { name: "README.md" },
               {
                 name: "src",
                 nodes: [
@@ -173,6 +164,15 @@ export const nodes: NodeTree[] = [
                   },
                 ],
               },
+              { name: "bun.lock" },
+              { name: "codegen.ts" },
+              { name: "components.json" },
+              { name: "graphql.schema.json" },
+              { name: "next.config.ts" },
+              { name: "next-env.d.ts" },
+              { name: "package.json" },
+              { name: "postcss.config.mjs" },
+              { name: "README.md" },
               { name: "tsconfig.json" },
             ],
           },
