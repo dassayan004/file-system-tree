@@ -45,7 +45,11 @@ export const nodes: NodeTree[] = [
         name: "Documents",
         nodes: [],
       },
-      { name: "passwords.txt" },
+      {
+        name: "Projects",
+        nodes: [],
+      },
+      { name: "passwords.tsx" },
       { name: "input.sh" },
     ],
   },
